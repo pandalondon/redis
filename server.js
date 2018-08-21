@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 var fs = require('fs');
 
-app.set('port', 8000);
+app.set('port', 3000);
 app.use('/', express.static(__dirname));
 
 app.listen(app.get('port'), function() {
