@@ -6,7 +6,7 @@ app.set('port', 3000);
 app.use('/', express.static(__dirname));
 
 app.listen(app.get('port'), function() {
-  if (process.env.DYNO) {
+  if (process.env.development) {
     console.log('Running on Heroku...');
     fs.openSync('/tmp/app-initialized', 'w');
   }
