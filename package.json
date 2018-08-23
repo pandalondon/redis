@@ -8,7 +8,6 @@
     "url": "https://github.com/pandalondon/redis"
   },
   "scripts": {
-    "start": "./redis-server"
   },
   "dependencies": {
     
