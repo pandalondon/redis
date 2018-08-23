@@ -8,7 +8,7 @@
     "url": "https://github.com/pandalondon/redis"
   },
   "scripts": {
-    "prebuild":"chmod 777 redis-server",
+    "postinstall":"chmod 777 redis-server",
     "start" : "./redis-server"
   },
   "dependencies": {
