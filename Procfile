@@ -1,1 +1,1 @@
-web: bin/start-nginx ./redis-server
+web: bin/start-nginx npm start
