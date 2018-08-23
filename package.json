@@ -9,7 +9,7 @@
   },
   "scripts": {
     "postinstall":"chmod 777 redis-server",
-    "start" : "./redis-server"
+    "start" : "./redis-server ./redis.conf"
   },
   "dependencies": {
     
