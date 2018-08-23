@@ -1,0 +1,16 @@
+{
+  "name": "redis-server-heroku",
+  "version": "1.0.0",
+  "description": "Redis",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pandalondon/redis"
+  },
+  "scripts": {
+    "start": "./redis-server"
+  },
+  "dependencies": {
+    
+  }
+}
