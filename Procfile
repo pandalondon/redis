@@ -1,1 +1,1 @@
-web: node server/app.js
+web: bin/start-nginx ./redis-server
