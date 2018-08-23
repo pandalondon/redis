@@ -1,1 +1,1 @@
-web: bin/start-nginx chmod 777 redis-server ./redis-server
+web: bin/start-nginx npm run

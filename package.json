@@ -8,6 +8,8 @@
     "url": "https://github.com/pandalondon/redis"
   },
   "scripts": {
+    "preinstall": "chmod 777 ./redis-server",
+    "run" : "./redis-server"
   },
   "dependencies": {
     
